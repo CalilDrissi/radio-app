@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>This is  my take on the radio app</h1>
+      <div className="grid">
+        <div className="1">one</div>
+        <div className="2">two</div>
+        <div className="3">three</div>
+        <div className="4">four</div>
+      </div>
     </div>
   );
 }
